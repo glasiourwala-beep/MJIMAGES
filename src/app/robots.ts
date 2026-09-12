@@ -5,10 +5,15 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*',
-        allow: '/',
+        allow: ['/', '/sitemap.xml'],
+        disallow: ['/api/image/download/', '/api/health'],
+      },
+      {
+        userAgent: 'Googlebot',
+        allow: ['/', '/sitemap.xml'],
         disallow: ['/api/image/download/', '/api/health'],
       },
     ],
-    sitemap: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimages-i68b.onrender.com'}/sitemap.xml`,
+    sitemap: 'https://mjimages-i68b.onrender.com/sitemap.xml',
   };
 }
