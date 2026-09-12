@@ -1,19 +1,15 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
+  const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimages-i68b.onrender.com').replace(/\/$/, '');
   return {
     rules: [
       {
         userAgent: '*',
-        allow: ['/', '/sitemap.xml'],
-        disallow: ['/api/image/download/', '/api/health'],
-      },
-      {
-        userAgent: 'Googlebot',
-        allow: ['/', '/sitemap.xml'],
+        allow: '/',
         disallow: ['/api/image/download/', '/api/health'],
       },
     ],
-    sitemap: 'https://mjimages-i68b.onrender.com/sitemap.xml',
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }

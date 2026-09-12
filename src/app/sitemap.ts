@@ -1,8 +1,10 @@
 import { MetadataRoute } from 'next';
 import { TOOL_LIST } from '@/lib/constants/tools';
 
+export const revalidate = 86400; // Cache sitemap for 24 hours for instant loading
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimages-i68b.onrender.com';
+  const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimages-i68b.onrender.com').replace(/\/$/, '');
   const now = new Date();
 
   const toolEntries: MetadataRoute.Sitemap = TOOL_LIST.map((tool) => ({
