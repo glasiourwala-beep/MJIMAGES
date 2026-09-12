@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Disallow: /api/image/download/
+Disallow: /api/health
+
+User-agent: Googlebot
+Allow: /
+Allow: /sitemap.xml
+Disallow: /api/image/download/
+Disallow: /api/health
+
+Sitemap: https://mjimages-i68b.onrender.com/sitemap.xml
