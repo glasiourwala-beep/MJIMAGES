@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { TOOL_LIST } from '@/lib/constants/tools';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://mjimage.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimages-i68b.onrender.com';
   const now = new Date();
 
   const toolEntries: MetadataRoute.Sitemap = TOOL_LIST.map((tool) => ({

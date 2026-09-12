@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/image/download/', '/api/health'],
       },
     ],
-    sitemap: 'https://mjimage.com/sitemap.xml',
+    sitemap: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimages-i68b.onrender.com'}/sitemap.xml`,
   };
 }
