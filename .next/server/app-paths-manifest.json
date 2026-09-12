@@ -1,0 +1,5 @@
+{
+  "/api/image/resize/route": "app/api/image/resize/route.js",
+  "/image-resizer/page": "app/image-resizer/page.js",
+  "/page": "app/page.js"
+}
