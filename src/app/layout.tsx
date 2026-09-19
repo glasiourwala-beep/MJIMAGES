@@ -18,8 +18,10 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimages-i68b.onrender.com';
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mjimage.com'),
+  metadataBase: new URL(siteUrl),
   title: {
     default: 'MJImage — Free, Fast & Privacy-Conscious Online Image Tools',
     template: '%s | MJImage',
@@ -49,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mjimage.com',
+    url: siteUrl,
     siteName: 'MJImage',
     title: 'MJImage — Free, Fast & Privacy-Conscious Online Image Tools',
     description:
