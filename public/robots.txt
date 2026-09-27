@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /api/image/download/
-Disallow: /api/health
-
-Sitemap: https://mjimage.onrender.com/sitemap.xml
