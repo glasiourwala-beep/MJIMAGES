@@ -3,4 +3,4 @@ Allow: /
 Disallow: /api/image/download/
 Disallow: /api/health
 
-Sitemap: https://mjimages-i68b.onrender.com/sitemap.xml
+Sitemap: https://mjimage.onrender.com/sitemap.xml

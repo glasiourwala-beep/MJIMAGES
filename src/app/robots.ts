@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimages-i68b.onrender.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimage.onrender.com';
 
   return {
     rules: {

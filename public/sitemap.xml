@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mjimages-i68b.onrender.com/</loc>
+    <loc>https://mjimage.onrender.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/about</loc>
+    <loc>https://mjimage.onrender.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/contact</loc>
+    <loc>https://mjimage.onrender.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/privacy</loc>
+    <loc>https://mjimage.onrender.com/privacy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/terms</loc>
+    <loc>https://mjimage.onrender.com/terms</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/image-compressor</loc>
+    <loc>https://mjimage.onrender.com/image-compressor</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/image-resizer</loc>
+    <loc>https://mjimage.onrender.com/image-resizer</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/jpg-to-png</loc>
+    <loc>https://mjimage.onrender.com/jpg-to-png</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/png-to-jpg</loc>
+    <loc>https://mjimage.onrender.com/png-to-jpg</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/webp-to-jpg</loc>
+    <loc>https://mjimage.onrender.com/webp-to-jpg</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/image-cropper</loc>
+    <loc>https://mjimage.onrender.com/image-cropper</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mjimages-i68b.onrender.com/image-converter</loc>
+    <loc>https://mjimage.onrender.com/image-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

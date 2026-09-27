@@ -18,10 +18,13 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimages-i68b.onrender.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mjimage.onrender.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  verification: {
+    google: 'google1fdade3e39d2a38a',
+  },
   title: {
     default: 'MJImage — Free, Fast & Privacy-Conscious Online Image Tools',
     template: '%s | MJImage',
