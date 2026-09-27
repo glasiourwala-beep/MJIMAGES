@@ -171,6 +171,29 @@ export default function ContactPage() {
         </p>
       </div>
 
+      {/* Founder & Lead Developer Profile Card */}
+      <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-card flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left transition-all hover:border-brand-300">
+        <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-600 to-indigo-700 text-white font-extrabold text-xl shadow-md">
+          MR
+        </div>
+        <div className="space-y-1.5 min-w-0 flex-1">
+          <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
+            <span className="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-2.5 py-0.5 rounded-full border border-brand-200">
+              Founder & Lead Engineer
+            </span>
+            <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 text-xs font-bold text-emerald-800">
+              📍 Pakistan
+            </span>
+          </div>
+          <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900">
+            Muhammad Rafay Ghaffar
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed max-w-xl">
+            Software engineer and founder of MJImage. Dedicated to engineering high-performance, privacy-conscious web applications and developer tools.
+          </p>
+        </div>
+      </div>
+
       {/* Contacts Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {/* Email — interactive dropdown */}

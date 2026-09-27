@@ -177,7 +177,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="mt-12 border-t border-slate-200 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} MJImage. All rights reserved. Built for speed, privacy, and precision.</p>
+          <p>© {new Date().getFullYear()} MJImage by <strong className="text-slate-700">Muhammad Rafay Ghaffar</strong> (Pakistan). Built for speed, privacy, and precision.</p>
           <div className="flex items-center gap-6">
             <Link href="/privacy" className="hover:underline">Privacy</Link>
             <Link href="/terms" className="hover:underline">Terms</Link>

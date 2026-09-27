@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     'free image tools',
     'fast image compression',
   ],
-  authors: [{ name: 'MJImage' }],
-  creator: 'MJImage',
+  authors: [{ name: 'Muhammad Rafay Ghaffar' }],
+  creator: 'Muhammad Rafay Ghaffar',
   publisher: 'MJImage',
   formatDetection: {
     email: false,

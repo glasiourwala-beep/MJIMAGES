@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ShieldCheck, Zap, Lock, Sparkles, Heart, ArrowRight } from 'lucide-react';
+import { ShieldCheck, Zap, Lock, Sparkles, Heart, ArrowRight, User } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'About Us — High Performance & Privacy-First Image Tools',
@@ -77,6 +77,23 @@ export default function AboutPage() {
         </h2>
         <p>
           We do not own, inspect, catalog, or train AI models on user imagery. Image processing occurs within sandboxed server tasks, strips sensitive EXIF GPS location data by default, and purges all ephemeral file artifacts automatically upon job completion.
+        </p>
+      </div>
+
+      {/* Leadership & Founder Section */}
+      <div className="rounded-3xl border border-slate-200 bg-white p-8 sm:p-10 shadow-card space-y-4">
+        <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-600">
+          <User size={16} />
+          <span>Leadership & Founder</span>
+        </div>
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+          <div>
+            <h3 className="text-2xl font-extrabold text-slate-900">Muhammad Rafay Ghaffar</h3>
+            <p className="text-xs font-semibold text-slate-500 mt-0.5">Founder & Lead Software Engineer • 📍 Pakistan</p>
+          </div>
+        </div>
+        <p className="text-sm text-slate-600 leading-relaxed">
+          <strong>MJImage</strong> was founded by <strong>Muhammad Rafay Ghaffar</strong> in <strong>Pakistan</strong> to deliver next-generation, high-performance image optimization tools to web developers, designers, and creators around the globe. Our focus remains steadfast on ultra-low latency processing, zero account friction, and strict data privacy.
         </p>
       </div>
 

@@ -9,7 +9,7 @@ class ConcurrencyGate {
   private maxConcurrent: number;
   private queue: (() => void)[] = [];
 
-  constructor(maxConcurrent = 10) {
+  constructor(maxConcurrent = 2) {
     this.maxConcurrent = maxConcurrent;
   }
 
@@ -56,4 +56,4 @@ class ConcurrencyGate {
   }
 }
 
-export const imageProcessingGate = new ConcurrencyGate(10);
+export const imageProcessingGate = new ConcurrencyGate(2);
